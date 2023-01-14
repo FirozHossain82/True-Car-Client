@@ -1,0 +1,90 @@
+[
+    {
+        
+        "categoryName": "Microbus",
+        "categoryList": [
+            {
+                "productName": "Suzuki-APV-Microbus",
+                "sellerName": "Firoz",
+                "service_id": "01",
+                "yearsOfUse": "1",
+                "img": "https://i.ibb.co/6XY3j0w/suzuki-apv-microbus-img1.jpg",
+                "resalePrice": "$1500.00",
+                "originalPrice": "2500.00",
+                "location": "Dhaka",
+                "postingTime": "8:40am"
+            },
+            {
+                "productName": "Nissan-URVAN-NV350-Microbus",
+                "sellerName": "Hossain",
+                "service_id": "02",
+                "yearsOfUse": "2",
+                "img": "https://i.ibb.co/dkxVkSb/MicroBus.jpg",
+                "resalePrice": "$150.00",
+                "originalPrice": "$300.00",
+                "location": "Dhaka",
+                "postingTime": "10.00am"
+            }     
+        ] ,
+        "condition": "Good"
+    },
+    {
+        
+        "categoryName": "Luxurious Car",
+        "categoryList": [
+            {
+                "productName": "BMW-Luxurious-Car",
+                "sellerName": "Faysal",
+                "service_id": "03",
+                "yearsOfUse": "1",
+                "img": "https://i.ibb.co/K26w7wd/BMW-Luxurious-Car.png",
+                "resalePrice": "$2000.00",
+                "originalPrice": "$3000.00",
+                "location": "Dhaka",
+                "postingTime": "4.00pm"
+            },
+            {
+                "productName": "Rolls-Royce-Car",
+                "sellerName": "Mahmud",
+                "service_id": "04",
+                "yearsOfUse": "2",
+                "img": "https://i.ibb.co/8YjfDsb/Rolls-Royce-Car.jpg",
+                "resalePrice": "$1500.00",
+                "originalPrice": "$2500.00",
+                "location": "Rajshahi",
+                "postingTime": "2.00pm"
+            }    
+        ],
+        "condition": "Excellent"
+    },
+    {
+        
+        "categoryName": "Electric-Car",
+        "categoryList": [
+            {
+                "productName": "Hyundai-Kona-Electric-Car",
+                "sellerName": "Ovro",
+                "service_id": "05",
+                "yearsOfUse": "5",
+                "img": "https://i.ibb.co/j5n3R7T/Hyundai-Kona-Electric-Car.jpg",
+                "resalePrice": "$700.00",
+                "originalPrice": "$1000.00",
+                "location": "Pabna",
+                "postingTime": "8am"
+            },
+            {
+                "productName": "Electric-Car",
+                "sellerName": "Mahmud",
+                "service_id": "06",
+                "yearsOfUse": "3",
+                "img": "https://i.ibb.co/2nMXLCs/Electic-Car.jpg",
+                "resalePrice": "$600.00",
+                "originalPrice": "$1000.00",
+                "location": "Bogura",
+                "postingTime": "5.00pm"
+            }
+            
+        ],
+        "condition": "Good"
+    }
+]
