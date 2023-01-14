@@ -55,7 +55,7 @@ const router = createBrowserRouter([
         ),
         loader: ({ params }) =>
           fetch(
-            `http://localhost:5000/categories/${params.id}`,
+            `https://true-car-server.vercel.app/categories/${params.id}`,
           ),
       },
     ],
@@ -106,7 +106,7 @@ const router = createBrowserRouter([
         element: <Payment></Payment>,
         loader: ({ params }) =>
           fetch(
-            `http://localhost:5000/bookings/${params.id}`,
+            `https://true-car-server.vercel.app/bookings/${params.id}`,
           ),
       },
     ],

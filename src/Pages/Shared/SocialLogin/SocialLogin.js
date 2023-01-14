@@ -19,7 +19,7 @@ const SocialLogin = () => {
   //adding google user data on database
   const saveSellerUser = (name, email) => {
     const sellerUser = { name, email }
-    fetch('http://localhost:5000/sellers', {
+    fetch('https://true-car-server.vercel.app/sellers', {
       method: 'POST',
       headers: {
         'content-type': 'application/json',
@@ -34,7 +34,7 @@ const SocialLogin = () => {
   }
 
   const getUserToken = (email) => {
-    fetch(`http://localhost:5000/jwt?email=${email}`)
+    fetch(`https://true-car-server.vercel.app/jwt?email=${email}`)
       .then((res) => res.json())
       .then((data) => {
         if (data.accessToken) {

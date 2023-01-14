@@ -42,7 +42,7 @@ const Login = () => {
   //adding google user data on database
   const saveBuyerUser = (name, email) => {
     const buyerUser = { name, email }
-    fetch('http://localhost:5000/buyers', {
+    fetch('https://true-car-server.vercel.app/buyers', {
       method: 'POST',
       headers: {
         'content-type': 'application/json',

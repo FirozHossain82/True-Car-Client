@@ -16,7 +16,7 @@ const AllBuyers = () => {
     queryFn: async () => {
       try {
         const res = await fetch(
-          'http://localhost:5000/users',
+          'https://true-car-server.vercel.app/users',
           {
             headers: {
               authorization: `bearer ${localStorage.getItem('accessToken')}`,
@@ -30,7 +30,7 @@ const AllBuyers = () => {
   })
 
   const handleDeleteUser = (user) => {
-    fetch(`http://localhost:5000/users/${user._id}`, {
+    fetch(`https://true-car-server.vercel.app/users/${user._id}`, {
       method: 'DELETE',
       headers: {
         authorization: `bearer ${localStorage.getItem('accessToken')}`,

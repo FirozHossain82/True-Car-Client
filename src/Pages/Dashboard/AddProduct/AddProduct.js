@@ -20,7 +20,7 @@ const AddProduct = () => {
     queryKey: ['condition'],
     queryFn: async () => {
       const res = await fetch(
-        'http://localhost:5000/conditionType',
+        'https://true-car-server.vercel.app/conditionType',
       )
       const data = await res.json()
       return data
@@ -52,7 +52,7 @@ const AddProduct = () => {
           }
 
           // save product information on database
-          fetch('http://localhost:5000/products', {
+          fetch('https://true-car-server.vercel.app/products', {
             method: 'POST',
             headers: {
               'content-type': 'application/json',
