@@ -12,7 +12,7 @@ const AddProduct = () => {
     handleSubmit,
     formState: { errors },
   } = useForm()
-  const imageHostKey = process.env.REACT_APP_imgbb_key
+  const imageHostKey = process.env.REACT_APP_imgbb_key;
 
   const navigate = useNavigate()
   //console.log(imageHostKey);
